@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title></title>
+       
+        <link rel="stylesheet" href="musicPlayer21.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class = "container">
+       <img src = "https://i.ytimg.com/vi/D7FiD4GzKJw/maxresdefault.jpg">
+        </div>
+       
+        <section id="audio">
+            <div id="audio-container">
+      
+               <div id="audio-img-name-author">
+                 <div id="audio-img">
+                     <img src="https://i1.sndcdn.com/artworks-hHRNAPyoL1gTPNV7-mUwz9A-t500x500.jpg">
+                 </div>
+                 <div id="audio-name-author">
+                    <div id="audio-name">
+                       <p>Shape of You</p>
+                     </div>
+                     <div id="audio-author">
+                       <p>Ed Sheeran</p>
+                     </div>
+                </div>
+                
+              </div>
+             
+      
+              <div id="audio-widget-time">
+                <div id="audio-widget">
+                  <div class="audio-widget-pad">
+                    <i class="fa fa-random"></i> </a>
+                  </div>
+                  <div class="audio-widget-pad">
+                    <i class="fa fa-step-backward" id = "backward"></i> </a>
+                  </div>
+                  <div class="audio-widget-pad">
+                     <i class="fa fa-play-circle fa-3x" style="font-size:3.5rem;padding-top:.2rem;" id = "MasterPlay"></i> </a>
+                  </div>
+                  <div class="audio-widget-pad">
+                     <i class="fa fa-step-forward" id  = "forward"></i> </a>
+                  </div>
+                  <div class="audio-widget-pad">
+                     <i class="fa fa-redo"></i> </a>
+                  </div>
+                  <div class="audio-widget-pad">
+                    <i class="fa fa-repeat" style="padding-left:3px;" id = "Repeat"></i></a>
+                  </div>
+                </div>
+                
+                      <input type="range" name="range" id="myProgressBar" value = "0" min="0" max="100">
+                    </div>
+                    <div class = "Equalizer">
+                        <img id = "imgsrc" src = "https://i.gifer.com/LQCL.gif">
+                    </div>
+                
+                 <audio id = "mySong">
+                  <source src = "C:\Users\HP\Downloads\Shape-Of-You-(Remix)(PagalWorld).mp3" type = "audio/mp3">
+                 </audio>
+      
+            
+          
+          
+        <script src="musicPlayer2.js"></script>
+    </section>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+
+/* main */
+
+.artist{
+    display: inline-block;
+    width:100%;
+
+  }
+  .artist-details{
+  
+    display: flex;
+   
+  }
+  #search-icon{
+    cursor: pointer;
+  }
+  #microphone-icon{
+    cursor: pointer;
+  }
+  #bell-icon{
+    cursor: pointer;
+  }
+  .artist-img img{
+    width:363px;
+  }
+  .about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    margin: 1%;
+    padding-left: 10px;
+  }
+  .artist-name h1{
+    font-size: 25px;
+  }
+  .artist-name p{
+    font-size: 15px;
+    margin-top: -8%;
+      color: grey;
+  }
+  .follower-count{
+    padding:15px 15px 0px 0px;
+    color: grey;
+  }
+  .artist-background{
+    margin-top: 8%;
+    width: 100%;
+    color: grey;
+  }
+  .play-button a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: grey;
+  }
+  .play-button p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 8px;
+  
+  }
+  .play-button button{
+    font-size: 15px;
+    padding: 7px 30px 7px 30px;
+    border: 1px solid red;
+    color: white;
+    background-image: linear-gradient(to right,pink,red);
+  
+  }
+  .play-button button:hover{
+    background-image: linear-gradient(to left,pink,red);
+  }
+  .artist-playlist{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin:5px;
+   /* box-shadow: 0 5px 10px lightgrey;*/
+  }
+  .artist-playlist:hover{
+    box-shadow: 0px 10px 10px rgb(16, 176, 216);
+  }
+  .first-part{
+    display: flex;
+  
+  }
+  .number p{
+    color: white;
+  } 
+  
+  .second-part{
+    display: flex;
+    color:grey;
+  }
+  .song-image{
+    /* border: 1px solid blue; */
+    margin-left: 10px;
+    padding-top: 5px;
+  }
+  .song-image img{
+    width: 80px;
+  }
+  .song-image img:hover{
+    border-radius: 50px;
+    border: 1px solid grey;
+  }
+  .song-name{
+    font-size: 15px;
+    margin-left: 22px;
+    color: #ebb4b4;
+  }
+  .second-part{
+    padding:2% 7% 0px 0px;
+    /* border: 1px solid red; */
+    font-size: 30px;
+    color: grey;
+  }
+  .heart i{
+      /* border: 1px solid red; */
+      /* font-size: 30px;*/
+      color: lightgrey;
+      cursor: pointer;
+  }
+  
+  .plus i{
+    /* border: 1px solid red; */
+    position: relative;
+    left: 100%;
+    color: lightgrey;
+  }
+  .plus i:hover{
+    color:lightgreen;
+  }
+  /* aside */
+  

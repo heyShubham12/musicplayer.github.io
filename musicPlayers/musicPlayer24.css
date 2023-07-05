@@ -1,0 +1,225 @@
+
+/* main */
+
+.artist{
+    display: inline-block;
+    width:100%;
+    /* border: 1px solid red; */
+  }
+  .artist-details{
+    /* border: 1px solid red; */
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+  #search-icon{
+    cursor: pointer;
+  }
+  #microphone-icon{
+    cursor: pointer;
+  }
+  #bell-icon{
+    cursor: pointer;
+  }
+  .artist-img img{
+    width:363px;
+  }
+  .about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    margin: 1%;
+    padding-left: 10px;
+  }
+  .artist-name h1{
+    font-size: 25px;
+  }
+  .artist-name p{
+    font-size: 15px;
+    margin-top: -8%;
+      color: grey;
+  }
+  .follower-count{
+    padding:15px 15px 0px 0px;
+    color: grey;
+  }
+  .artist-background{
+    margin-top: 8%;
+    width: 100%;
+    color: grey;
+  }
+  .play-button a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: grey;
+  }
+  .play-button p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 8px;
+  
+  }
+  .play-button button{
+    font-size: 15px;
+    padding: 7px 30px 7px 30px;
+    border: 1px solid red;
+    color: white;
+    background-image: linear-gradient(to right,pink,red);
+  
+  }
+  .play-button button:hover{
+    background-image: linear-gradient(to left,pink,red);
+  }
+  .artist-playlist{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin:5px;
+   /* box-shadow: 0 5px 10px lightgrey;*/
+  }
+  .artist-playlist:hover{
+    box-shadow: 0px 10px 10px rgb(16, 176, 216);
+  }
+  .first-part{
+    display: flex;
+  
+  }
+  .number p{
+    color: white;
+  } 
+  
+  .second-part{
+    display: flex;
+    color:grey;
+  }
+  .song-image{
+    /* border: 1px solid blue; */
+    margin-left: 10px;
+    padding-top: 5px;
+  }
+  .song-image img{
+    width: 80px;
+  }
+  .song-image img:hover{
+    border-radius: 50px;
+    border: 1px solid grey;
+  }
+  .song-name{
+    font-size: 15px;
+    margin-left: 22px;
+    color: #ebb4b4;
+  }
+  .second-part{
+    padding:2% 7% 0px 0px;
+    /* border: 1px solid red; */
+    font-size: 30px;
+    color: grey;
+  }
+  .heart i{
+      /* border: 1px solid red; */
+      /* font-size: 30px;*/
+      color: lightgrey;
+  }
+  .heart i:hover{
+      color:red;
+  }
+  .plus i{
+    /* border: 1px solid red; */
+    position: relative;
+    left: 100%;
+    color: lightgrey;
+  }
+  .plus i:hover{
+    color:lightgreen;
+  }
+  /* aside */
+  .aside-div{
+    display: inline-block;
+    width: 22%;
+    border: 1px solid white;
+    vertical-align:top;
+    margin-left:1rem;
+    color:grey;
+    font-size: 13px;
+    border-radius: 10px;
+    height: 105vh;
+  }
+  
+  .similiar-artist-header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .similiar-artist-header p{
+    margin-top: 25px;
+  }
+  .similiar-artist-collection{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    margin-top: 10px;
+  
+  }
+  .similiar-artist-collection-images img{
+    width:100px;
+  }
+  .similiar-artist-collection-desc h1{
+    font-size: 15px;
+    margin-top: 2px;
+    padding: 10px 50px 0px 5px;
+    color: grey;
+  }
+  .similiar-artist-collection-desc p{
+    font-size: 12px;
+    margin: 0px;
+    padding:0px 0px 0px 5px;
+    color: grey;
+  }
+  .similiar-artist-collection-icon i{
+     font-size: 25px;
+     padding-left: 3px;
+  }
+  .similiar-artist-collection-icon p{
+    margin: 0px;
+    padding: 0px 20px 0px 0px;
+  }
+  
+  .recently-played-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+  }
+  .recently-played-header p{
+    margin-top: 25px;
+  }
+  .recently-played-collection{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    margin-top: 10px;
+  }
+  .recently-played-collection-images img{
+    width:70px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  .recently-played-collection-desc h1{
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 5px 50px 0px 5px;
+    color: grey;
+  }
+  .recently-played-collection-desc p{
+    font-size: 12px;
+    margin-top: -8px;
+    padding:0px 0px 0px 8px;
+    color: grey;
+  }
+  .recently-played-collection-icon i{
+    font-size: 24px;
+    /* padding-left: 3px; */
+    margin:15px 20px 0px 0px;
+    color: grey;
+  }
+  .recently-played-collection-icon i:hover{
+    color: red;
+  }

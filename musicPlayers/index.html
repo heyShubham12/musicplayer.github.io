@@ -1,0 +1,988 @@
+<html>
+  <head>
+    
+    <title>Music Player</title>
+   
+    <link rel="stylesheet" href="musicPlayer2.css">
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js"
+    crossorigin="anonymous"
+></script>
+<link rel = "icon" href = "https://cdn-icons-png.flaticon.com/512/4812/4812505.png">
+    
+    
+  </head>
+  <body>
+    
+    <header>
+      <div class="header-div">
+        <div id="brand-logo">
+          <a href="#">
+            <img src="https://forkast.news/wp-content/uploads/2021/11/Cosmos.jpg" alt="">
+          </a>
+          
+        </div>
+
+        <div class="header-nav">
+          <nav>
+            <a href="#" class = "link"> Music Player </a>
+            <a href ='#favorite-songs' class = "link">Favourites</a>
+          </nav>
+        </div>
+
+        <div class="header-search">
+          <form class="" action="" method="post">
+            <input type="search" name="" value="" placeholder="Search">
+            <span>
+              <i class="fa fa-search" id="search-icon"aria-hidden="true"></i>
+            </span>
+            <span>
+              <i class="fa fa-microphone" id="microphone-icon"></i>
+            </span>
+            <span>
+              <i class="fa fa-bell" id="bell-icon"></i>
+            </span>
+          </form>
+        </div>
+
+         <div class="login-img">
+            <img src="https://www.reliancedigital.in/medias/Reconnect-ANC-DBTH502-AV-WL-Headphone-491600563-27?context=bWFzdGVyfGltYWdlc3wxODMxM3xpbWFnZS9qcGVnfGltYWdlcy9oZjMvaDJhLzk2ODIzMjQxOTMzMTAuanBnfGU0ZWFmMWMzZjhiMmU2MTkyZGZlNDNlMWY0NWNhODc2YzkzYWM3M2Y1OGQ4NjI0YmI0ZjQ1NzQ4NTRkZTQ3Yjk" alt="">
+         </div>
+      </div>
+    </header>
+<!-- Main Content -->
+    <div class="main-content">
+<!-- Slider Song -->
+      <div class="slider-song">
+        <div class="slider-song-1">
+          <a href = "file:///D:/HTML%20course/musicPlayer22.html#">
+          <img src="images/this is coldplay.jpg" alt="">
+          </a>
+        </div>
+        <div class="slider-song-1">
+          <a href = "file:///D:/HTML%20course/musicPlayer23.html">
+             <img src="images/one direction.jpg" alt="">
+            </a>
+            </div>
+        <div class="slider-song-1">
+          <a href = "file:///D:/HTML%20course/musicPlayer24.html">
+            <img src="images/alan walker.jpg" alt="">
+          </a>
+          </div>
+      </div>
+    
+<!-- Latest Release -->
+      <div class="latest-release">
+        <div class="latest-release-header">
+          <h1>Latest Release</h1>
+        </div>
+        <div class="latest-release-content">
+          <div class="latest-release-content-img">
+            <img src="images/Taylor swift3.jpg" alt="">
+            <div class="lr-play">
+            <a href="file:///D:/HTML%20course/musicplayer34.html">  <i class="fa fa-play"></i> </a>
+            </div>
+          </div>
+          <div class="latest-release-content-des">
+            <p>Taylor Swift</p>
+            <p>AUG 11, 2021</p>
+          </div>
+          <div class="latest-release-content-icon">
+            <div class="latest-release-dropdown">
+                 <a href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                 <ul class="ul-lr-dropdown" style="list-style-type:none">
+                    <li>
+                       <i class="fa fa-play"></i>
+                       <a href="file:///D:/HTML%20course/musicplayer34.html" class="lr-dropdown-opt">Play Now </a>
+                    </li>
+                    <li>
+                       <i class="fa fa-plus"></i>
+                       <a href="#" class="lr-dropdown-opt"> Add To Queue </a>
+                    </li>
+                    <li>
+                       <i class="fa fa-bars"></i>
+                       <a href="#" class="lr-dropdown-opt"> Add To Favourites </a>
+                    </li>
+                    <li>
+                    <i class="fa fa-info-circle"></i>
+                     <a class="lr-dropdown-opt" onclick = "Info()" style="cursor: pointer;"> Get Info </a>
+                    </li>
+                  </ul>
+            </div>
+            <p>3:41</p>
+          </div>
+
+        </div>
+
+        <div class="latest-release-content">
+          <div class="latest-release-content-img">
+            <img src="images/harry styles2.jpg" alt="">
+            <div class="lr-play">
+            <a href="file:///D:/HTML%20course/musicplayer21.html">  <i class="fa fa-play"></i> </a>
+            </div>
+          </div>
+          <div class="latest-release-content-des">
+            <p>harry styles</p>
+            <p>AUG 11, 2021</p>
+          </div>
+          <div class="latest-release-content-icon">
+            <div class="latest-release-dropdown">
+                 <a href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                 <ul class="ul-lr-dropdown-2" style="list-style-type:none">
+                    <li>
+                       <i class="fa fa-play"></i>
+                       <a href="file:///D:/HTML%20course/musicplayer21.html" class="lr-dropdown-opt">Play Now </a>
+                    </li>
+                    <li>
+                       <i class="fa fa-plus"></i>
+                       <a href="#" class="lr-dropdown-opt"> Add To Queue </a>
+                    </li>
+                    <li>
+                       <i class="fa fa-bars"></i>
+                       <a class="lr-dropdown-opt" id = "like3" style = "cursor: pointer;"> Add To Favourites </a>
+                    </li>
+                    <li>
+                    <i class="fa fa-info-circle"></i>
+                     <a class="lr-dropdown-opt" onclick="Info1()" style = "cursor: pointer;"> Get Info </a>
+                    </li>
+                  </ul>
+            </div>
+            <p>4:40</p>
+          </div>
+        </div>
+
+        <div class="latest-release-content">
+          <div class="latest-release-content-img">
+            <img src="images/arijit singh1.jpeg" alt="" style = "height:150px;">
+            <div class="lr-play">
+            <a href="file:///D:/HTML%20course/musicplayer30.html"><i class="fa fa-play"></i> </a>
+            </div>
+          </div>
+          <div class="latest-release-content-des">
+            <p>Arijit Singh</p>
+            <p>AUG 11, 2021</p>
+          </div>
+          <div class="latest-release-content-icon">
+            <div class="latest-release-dropdown">
+                 <a href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                 <ul class="ul-lr-dropdown" style="list-style-type:none">
+                    <li>
+                       <i class="fa fa-play"></i>
+                       <a href="file:///D:/HTML%20course/musicplayer30.html" class="lr-dropdown-opt">Play Now </a>
+                    </li>
+                    <li>
+                       <i class="fa fa-plus"></i>
+                       <a href="#" class="lr-dropdown-opt"> Add To Queue </a>
+                    </li>
+                    <li>
+                       <i class="fa fa-bars"></i>
+                       <a class="lr-dropdown-opt" id = "like5" style="cursor: pointer;"> Add To Favourites </a>
+                    </li>
+                    <li>
+                    <i class="fa fa-info-circle"></i>
+                     <a class="lr-dropdown-opt" onclick="Info2()" style = "cursor: pointer;"> Get Info </a>
+                    </li>
+                  </ul>
+            </div>
+            <p>3:54</p>
+          </div>
+        </div>
+
+        <div class="latest-release-content">
+          <div class="latest-release-content-img">
+            <img src="images/justin bieber.jpeg" alt="">
+            <div class="lr-play">
+            <a href="file:///D:/HTML%20course/musicplayer27.html"> <i class="fa fa-play"></i> </a>
+            </div>
+          </div>
+          <div class="latest-release-content-des">
+            <p>Justin bieber</p>
+            <p>AUG 11, 2021</p>
+          </div>
+          <div class="latest-release-content-icon">
+            <div class="latest-release-dropdown">
+                 <a href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                 <ul class="ul-lr-dropdown-4" style="list-style-type:none">
+                    <li>
+                       <i class="fa fa-play"></i>
+                       <a href="file:///D:/HTML%20course/musicplayer27.html" class="lr-dropdown-opt">Play Now </a>
+                    </li>
+                    <li>
+                       <i class="fa fa-plus"></i>
+                       <a href="#" class="lr-dropdown-opt"> Add To Queue </a>
+                    </li>
+                    <li>
+                       <i class="fa fa-bars"></i>
+                       <a class="lr-dropdown-opt" id = "like" style = "cursor: pointer;"> Add To Favourites </a>
+                    </li>
+                    <li>
+                    <i class="fa fa-info-circle"></i>
+                     <a class="lr-dropdown-opt" onclick="Info3()" style = "cursor: pointer;"> Get Info </a>
+                    </li>
+                  </ul>
+            </div>
+            <p>4:44</p>
+          </div>
+        </div>
+      </div>
+     
+<!-- Popular Artist -->
+     <div class="popular-artists">
+       <div class="popular-artists-header">
+          <h1>Popular Artists</h1>
+       </div>
+       <div class="popular-artists-content">
+         <div class="popular-artists-profile">
+           <a href="#">
+              <img src="images/Taylor swift2.jpg" alt="Taylor Swift">
+              <div class="lr-play">
+              <a href="file:///D:/HTML%20course/musicplayer34.html"> <i class="fa fa-play"></i> </a>
+              </div>
+           </a>
+           <p>Taylor Swift</p>
+         </div>
+         <div class="popular-artists-profile">
+           <a href="#"><img src="http://starsunfolded.com/wp-content/uploads/2017/07/Kishore-Kumar.jpg" alt="Kishore Kumar"></a>
+           <div class="lr-play">
+           <a href="file:///D:/HTML%20course/musicPlayer39.html"> <i class="fa fa-play"></i> </a>
+           </div>
+           <p> Kishore Kumar</p>
+         </div>
+         <div class="popular-artists-profile">
+           <a href="#"> <img src="images/alan walker2.jpg" alt="Alan Walker"></a>
+           <div class="lr-play">
+           <a href="file:///D:/HTML%20course/musicplayer35.html"> <i class="fa fa-play"></i> </a>
+           </div>
+           <p>Alan Walker</p>
+         </div>
+         <div class="popular-artists-profile">
+          <a href="#">
+            <img src="images/Michael Buble.jpg" alt="Michael Buble">
+          </a>
+          <div class="lr-play">
+          <a href="file:///D:/HTML%20course/musicplayer41.html"> <i class="fa fa-play"></i> </a>
+          </div>
+          <p>Michael Buble</p>
+         </div>
+          <div class="popular-artists-profile">
+           <a href="#">
+             <img src="https://media.pitchfork.com/photos/5ee13c30ca5f171c3b76fa68/1:1/w_3360,h_3360,c_limit/Harry-Styles.JPG" alt="Harry">
+           </a>
+           <div class="lr-play">
+           <a href="file:///D:/HTML%20course/musicplayer21.html"> <i class="fa fa-play"></i> </a>
+           </div>
+           <p>Harry Styles</p>
+         </div>
+       </div>
+     </div>
+    
+<!-- Station Type -->
+<h1 style = "margin: 60px 0px;">Mood Station</h1>
+    <div class="stations-type">
+    
+      <div class="stations-container">
+        <div class=" bg-image stations-text">
+
+        </div>
+        <div class=" bg-image-1 stations-text">
+
+        </div>
+
+        <div class="bg-image-3 stations-text">
+
+        </div>
+        <div class="bg-image-4 stations-text">
+
+        </div>
+        <div class="bg-image-5 stations-text">
+
+        </div>
+
+      </div>
+     </div>
+<!-- Mood-Type      -->
+    <div class="mood-type">
+      <div class="mood-bg-1">
+        <img src="images/workout.jpeg" alt="">
+
+
+      </div>
+      <div class="mood-bg-2">
+        <img src="images/road trip.jpeg" alt="">
+
+      </div>
+      <div class="mood-bg-3">
+        <img src="images/chill.jpeg" alt="">
+
+      </div>
+
+    </div>
+
+<!-- Latest English -->
+    <div class="latest-english">
+      <div class="latest-english-header">
+        <h1>Latest English</h1>
+      </div>
+      <div class="latest-english-content">
+        <div class="latest-english-track">
+          <a href = "file:///D:/HTML%20course/musicplayer29.html">
+          <img src="https://i.ytimg.com/vi/3YqPKLZF_WU/maxresdefault.jpg" alt="">
+          </a>
+          <div class="latest-english-track-desc">
+            <p>My Universe</p>
+            <p>Sep 29, 2021</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="latest-english-content">
+        <div class="latest-english-track">
+          <a href = "file:///D:/HTML%20course/musicplayer26.html">
+          <img src="https://img3.yna.co.kr/photo/yna/YH/2020/09/02/PYH2020090210260000500_P2.jpg" alt="">
+          </a>
+          <div class="latest-english-track-desc">
+            <p>Dynamite</p>
+            <p>Sep 26, 2020</p>
+          </div>
+        </div>
+      </div>
+      <div class="latest-english-content">
+        <div class="latest-english-track">
+          <a href = "file:///D:/HTML%20course/musicplayer21.html">
+
+          <img src="https://i.ytimg.com/vi/SKg09IeK0uw/maxresdefault.jpg" alt="">
+          </a>
+          <div class="latest-english-track-desc">
+            <p>Night Changes</p>
+            <p>Jun 07, 2022</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="latest-english-content">
+        <div class="latest-english-track">
+          <a href = "file:///D:/HTML%20course/musicplayer27.html">
+          <img src="https://images.thebrag.com/tmn/uploads/The-Kid-LAROI-and-Justin-Bieber-Stay.png" alt="">
+          </a>
+          <div class="latest-english-track-desc">
+            <p>Stay</p>
+            <p>Jul 14, 2021</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="latest-english-content">
+        <div class="latest-english-track">
+          <a href = 'file:///D:/HTML%20course/musicplayer28.html'>
+          <img src="https://i.ytimg.com/vi/Sebs7UPmcrQ/maxresdefault.jpg" alt="">
+          </a>
+          <div class="latest-english-track-desc">
+            <p>Senorita</p>
+            <p>Jun 25, 2019</p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+<!-- Latest Hindi     -->
+<div class="latest-hindi">
+  <div class="latest-hindi-header">
+    <h1>Latest Hindi</h1>
+  </div>
+  <div class="latest-hindi-content">
+    <div class="latest-hindi-track">
+      <a href = "file:///D:/HTML%20course/musicplayer30.html">
+      <img src="https://i.ytimg.com/vi/1qeujW9f4So/maxresdefault.jpg" alt="">
+      </a>
+      <div class="latest-hindi-track-desc">
+        <p>Kesariya</p>
+        <p>Apr 12, 2022</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="latest-hindi-content">
+    <div class="latest-hindi-track">
+      <a href = "file:///D:/HTML%20course/musicplayer31.html">
+      <img src="https://www.iwmbuzz.com/wp-content/uploads/2022/05/have-you-listened-to-the-title-tracks-from-bhool-bhulaiyaa-2-tune-in-now-920x518.jpg" alt="">
+      </a>
+      <div class="latest-hindi-track-desc">
+        <p>Bhool Bhulaiyaa</p>
+        <p>May 02, 2022</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="latest-hindi-content">
+    <div class="latest-hindi-track">
+      <a href = "file:///D:/HTML%20course/musicplayer32.html">
+      <img src="https://m.media-amazon.com/images/M/MV5BN2Y0YjJkMTctNjNmMC00MDkyLTkzZDktMWZmNTdmN2YyNWNmXkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_.jpg" alt="">
+      </a>
+      <div class="latest-hindi-track-desc">
+        <p>Khairiyat</p>
+        <p>Aug 26, 2019</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="latest-hindi-content">
+    <div class="latest-hindi-track">
+      <a href = 'file:///D:/HTML%20course/musicplayer25.html'>
+      <img src="https://c.saavncdn.com/044/Deva-Deva-From-Brahmastra-Hindi-2022-20220812225424-500x500.jpg" alt="">
+      </a>
+      <div class="latest-hindi-track-desc">
+        <p>Deva Deva</p>
+        <p>Aug 08, 2022</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="latest-hindi-content">
+    <div class="latest-hindi-track">
+      <a href = "file:///D:/HTML%20course/musicplayer33.html">
+      <img src="images/Manike.jpg" alt="">
+      </a>
+      <div class="latest-hindi-track-desc">
+        <p>Manike</p>
+        <p>Sep 15, 2022</p>
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
+    </div>
+<!-- Aside div -->
+    <div class="aside-div">
+      <div class="aside-div-header">
+        <div class="header">
+          <h1>Playlist</h1>
+        </div>
+          <div class="para">
+            <span>Queue</span>
+            <a href="#">  <i class="fa fa-chevron-down"></i> </a>
+          </div>
+
+      </div>
+
+
+      
+      <div class="aside-content" id = "item2">
+        <div class="aside-content-1">
+           <div class="aside-content-no">
+             <p>01</p>
+           </div>
+           <div class="aside-content-img">
+             <a href="file:///D:/HTML%20course/musicplayer29.html"><img src="https://pbs.twimg.com/media/FABgilvUYAQOaQo.jpg" alt=""></a>
+           </div>
+           <div class="aside-content-desc">
+             <p>ColdPlay</p>
+             <p>My Universe</p>
+           </div>
+        </div>
+        <div class="aside-content-heart">
+          <i class="fa fa-heart" id = "like1"></i>
+        </div>
+      </div>
+      <div class="aside-content" id = "item3">
+        <div class="aside-content-1">
+           <div class="aside-content-no">
+             <p>02</p>
+           </div>
+           <div class="aside-content-img">
+            <a href="file:///D:/HTML%20course/musicplayer26.html"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/BTS_-_Dynamite_%28official_cover%29.png" alt=""></a>
+           </div>
+           <div class="aside-content-desc">
+             <p>BTS</p>
+             <p>Dynamite</p>
+           </div>
+        </div>
+        <div class="aside-content-heart">
+          <i class="fa fa-heart" id = "like2"></i>
+        </div>
+      </div>
+     
+      <div class="aside-content" id = "item5">
+        <div class="aside-content-1">
+           <div class="aside-content-no">
+             <p>03</p>
+           </div>
+           <div class="aside-content-img">
+             <a href="file:///D:/HTML%20course/musicplayer28.html"><img src="https://i.scdn.co/image/ab67616d0000b273bbda2325afa7cfda80ccd856" alt=""></a>
+           </div>
+           <div class="aside-content-desc">
+             <p>Shawn Mendes</p>
+             <p>Senorita</p>
+           </div>
+        </div>
+        <div class="aside-content-heart">
+          <i class="fa fa-heart" id = "like4"></i>
+        </div>
+      </div>
+     
+      <div class="aside-content" id = "item7">
+        <div class="aside-content-1">
+           <div class="aside-content-no">
+             <p>04</p>
+           </div>
+           <div class="aside-content-img">
+            <a href="file:///D:/HTML%20course/musicplayer31.html"><img src="images/arijit singh1.jpeg" alt=""></a>
+           </div>
+           <div class="aside-content-desc">
+             <p>Laal Singh Chaddha</p>
+             <p>Phir Na aisi raat ayegi</p>
+           </div>
+        </div>
+        <div class="aside-content-heart">
+          <i class="fa fa-heart" id = "like6"></i>
+        </div>
+      </div>
+      <div class="aside-content" id = "item8">
+        <div class="aside-content-1">
+           <div class="aside-content-no">
+             <p>05</p>
+           </div>
+           <div class="aside-content-img">
+            <a href="file:///D:/HTML%20course/musicplayer32.html"><img src="https://m.media-amazon.com/images/M/MV5BN2Y0YjJkMTctNjNmMC00MDkyLTkzZDktMWZmNTdmN2YyNWNmXkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_.jpg" alt=""></a>
+           </div>
+           <div class="aside-content-desc">
+             <p>Arijit Singh</p>
+             <p>Khariyat</p>
+           </div>
+        </div>
+        <div class="aside-content-heart">
+          <i class="fa fa-heart" id = "like7"></i>
+        </div>
+      </div>
+      <div class="aside-content" id = "item9">
+        <div class="aside-content-1">
+           <div class="aside-content-no">
+             <p>06</p>
+           </div>
+           <div class="aside-content-img">
+            <a href="file:///D:/HTML%20course/musicplayer25.html"><img src="https://c.saavncdn.com/044/Deva-Deva-From-Brahmastra-Hindi-2022-20220812225424-500x500.jpg" alt=""></a>
+           </div>
+           <div class="aside-content-desc">
+             <p>Arijit Singh</p>
+             <p>Deva Deva</p>
+           </div>
+        </div>
+        <div class="aside-content-heart">
+          <i class="fa fa-heart" id = "like8"></i>
+        </div>
+      </div>
+      <div class="aside-content" id = "item10">
+        <div class="aside-content-1">
+           <div class="aside-content-no">
+             <p>07</p>
+           </div>
+           <div class="aside-content-img">
+             <a href="file:///D:/HTML%20course/musicplayer33.html"><img src="images/Manike.jpg" alt=""></a>
+           </div>
+           <div class="aside-content-desc">
+             <p>Thank God</p>
+             <p>Manike</p>
+           </div>
+        </div>
+        <div class="aside-content-heart">
+          <i class="fa fa-heart" id = "like9"></i>
+        </div>
+      </div>
+      <div class="aside-content" id = "item11">
+        <div class="aside-content-1">
+           <div class="aside-content-no">
+             <p>08</p>
+           </div>
+           <div class="aside-content-img">
+             <a href="file:///D:/HTML%20course/musicplayer37.html"><img src="https://c.saavncdn.com/557/My-Heart-Will-Go-On-English-1998-20200827184117-500x500.jpg" alt=""></a>
+           </div>
+           <div class="aside-content-desc">
+             <p>Titanic</p>
+             <p>My Heart will go on</p>
+           </div>
+        </div>
+        <div class="aside-content-heart">
+          <i class="fa fa-heart" id = "like10"></i>
+        </div>
+      </div>
+      <div class="aside-content" id = "item12">
+        <div class="aside-content-1">
+           <div class="aside-content-no">
+             <p>09</p>
+           </div>
+           <div class="aside-content-img">
+             <a href="file:///D:/HTML%20course/musicplayer35.html"><img src="https://i1.sndcdn.com/artworks-000523641915-lo2qzf-t500x500.jpg" alt=""></a>
+           </div>
+           <div class="aside-content-desc">
+             <p>Alan Walker</p>
+             <p>On My Way</p>
+           </div>
+        </div>
+        <div class="aside-content-heart">
+          <i class="fa fa-heart" id = "like11"></i>
+        </div>
+      </div>
+      <div class="aside-content" id = "item13">
+        <div class="aside-content-1">
+           <div class="aside-content-no">
+             <p>10</p>
+           </div>
+           <div class="aside-content-img">
+             <a href="file:///D:/HTML%20course/musicplayer36.html"><img src="images/Ed sheeran.jpg" alt=""></a>
+           </div>
+           <div class="aside-content-desc">
+             <p>Ed Sheeran</p>
+             <p>Shape of you</p>
+           </div>
+        </div>
+        <div class="aside-content-heart">
+          <i class="fa fa-heart" id = "like12"></i>
+        </div>
+      </div>
+      <div class="aside-content">
+        <div class="aside-content-1">
+           <div class="aside-content-no">
+             <p>11</p>
+           </div>
+           <div class="aside-content-img">
+             <a href="file:///D:/HTML%20course/musicplayer38.html"><img src="images/pasoori.jpg" alt=""></a>
+           </div>
+           <div class="aside-content-desc">
+             <p>Ali Sethi & Shae Gill</p>
+             <p>Pasoori</p>
+           </div>
+        </div>
+        <div class="aside-content-heart">
+          <i class="fa fa-heart" id = "like13"></i>
+        </div>
+      </div>
+
+
+      
+      
+    </div>
+
+
+<!-- //music controler -->
+    <section id="audio">
+      <div id="audio-container">
+
+         <div id="audio-img-name-author">
+           <div id="audio-img">
+               <img src="https://images.thebrag.com/tmn/uploads/The-Kid-LAROI-and-Justin-Bieber-Stay.png">
+           </div>
+           <div id="audio-name-author">
+              <div id="audio-name">
+                 <p>Imagine by John </p>
+               </div>
+               <div id="audio-author">
+                 <p>John Lennon</p>
+               </div>
+          </div>
+          <div id="audio-heart-ban">
+              <a href="#"> <i class="fa fa-heart"></i> </a>
+              <a href="#"> <i class="fa fa-ban"></i> </a>
+          </div>
+        </div>
+
+        <div id="audio-widget-time">
+          <div id="audio-widget">
+            <div class="audio-widget-pad">
+               <a href=""> <i class="fa fa-random"></i> </a>
+            </div>
+            <div class="audio-widget-pad">
+               <a href=""> <i class="fa fa-step-backward"></i> </a>
+            </div>
+            <div class="audio-widget-pad">
+               <a href=""> <i class="fa fa-pause-circle fa-3x" style="font-size:3.5rem;padding-top:.2rem;"></i> </a>
+            </div>
+            <div class="audio-widget-pad">
+               <a href=""> <i class="fa fa-step-forward"></i> </a>
+            </div>
+            <div class="audio-widget-pad">
+               <a href=""> <i class="fa fa-redo"></i> </a>
+            </div>
+            <div class="audio-widget-pad">
+               <a href=""> <i class="fa fa-repeat" style="padding-left:3px;"></i></a>
+            </div>
+          </div>
+          <div id="audio-time">
+             <div class="">
+                <p>1:39</p>
+             </div>
+              <div class="vol-range">
+                <input type="range" name="" value="" min="0" max="100">
+              </div>
+              <div class="">
+                 <p>4:44</p>
+              </div>
+          </div>
+        </div>
+
+        <div id="audio-icons-sound">
+          <div>
+            <a href=""> <i class="fa fa-align-justify"></i></a>
+          </div>
+          <div>
+            <a href="">  <i class="fa fa-headphones"></i> </a>
+          </div>
+          <div>
+            <a href="">  <i class="fa fa-volume-up"></i> </a>
+          </div>
+          <div class="">
+            <input type="range" name="" value="" min="0" max="100">
+          </div>
+          <div>
+            <a href="">  <i class="fa fa-expand"></i> </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- bigger section -->
+    <div class="Bigger">
+      <div class="Bigger-header">
+        <h1>EXPLORE</h1>
+      </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer29.html">
+        <img src="images/this is coldplay.jpg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>COLDPLAY</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer30.html">
+        <img src="images/arijit singh1.jpeg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>ARIJIT SINGH</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer26.html">
+        <img src="images/anne Marie.jpeg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>ANNE MARIE</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer26.html">
+        <img src="images/atif aslam.jpg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>ATIF ASLAM</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer28.html">
+        <img src="images/shawn mendes.jpeg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>SHAWN MENDES</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer48.html">
+        <img src="images/alan walker1.jpg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>ALAN WALKER</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer39.html">
+        <img src="images/kishore kumar4.jpg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>KISHORE KUMAR</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer34.html">
+        <img src="images/taylor swift3.jpg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>TAYLOR SWIFT</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer28.html">
+        <img src="images/camila cabello.jpeg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>CAMILA CABELLO</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer44.html">
+        <img src="images/one direction1.jpeg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>ONE DIRECTION</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer49.html">
+        <img src="images/Ava Max.jpg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>AVA MAX</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer26.html">
+        <img src="images/marshmello.jpeg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>MARSHMELLO</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer37.html">
+        <img src="images/celine dion.jpg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>CELINE DION</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer26.html">
+        <img src="images/bts.jpg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>BTS</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigger-content">
+      <div class="bigger-track">
+        <a href = "file:///D:/HTML%20course/musicplayer26.html">
+        <img src="images/armaan malik.jpg" alt="">
+        </a>
+        <div class = "details-section">
+          <p>ARMAAN MALIK</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div id="favorite-songs">
+  <h1 style = "color: white;">Favourite Songs</h1>
+</div>
+<div style = "display:none; margin:10px;" id = "none1">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer29.html"> <img style = "height:200px; width:200px;" src= "https://pbs.twimg.com/media/FABgilvUYAQOaQo.jpg" /></a>
+   <h5 style = "color:white;">coldplay</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none2">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer27.html"> <img style = "height:200px; width:200px;" src= "images/justin bieber.jpeg" /></a>
+   <h5 style = "color:white;">Stay</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none3">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer26.html"> <img style = "height:200px; width:200px;" src= "https://upload.wikimedia.org/wikipedia/commons/5/5f/BTS_-_Dynamite_%28official_cover%29.png" /></a>
+   <h5 style = "color:white;">Dynamite</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none4">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer28.html"> <img style = "height:200px; width:200px;" src= "https://i.scdn.co/image/ab67616d0000b273bbda2325afa7cfda80ccd856" /></a>
+   <h5 style = "color:white;">Senorita</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none5">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer31.html"> <img style = "height:200px; width:200px;" src= "images/arijit singh1.jpeg" /></a>
+   <h5 style = "color:white;">Phir na aisi raat ayegi</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none6">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer32.html"> <img style = "height:200px; width:200px;" src= "https://m.media-amazon.com/images/M/MV5BN2Y0YjJkMTctNjNmMC00MDkyLTkzZDktMWZmNTdmN2YyNWNmXkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_.jpg" /></a>
+   <h5 style = "color:white;">Khairiyat</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none7">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer25.html"> <img style = "height:200px; width:200px;" src= "https://c.saavncdn.com/044/Deva-Deva-From-Brahmastra-Hindi-2022-20220812225424-500x500.jpg" /></a>
+   <h5 style = "color:white;">Deva Deva</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none8">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer33.html"> <img style = "height:200px; width:200px;" src= "images/Manike.jpg" /></a>
+   <h5 style = "color:white;">Manike</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none9">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer37.html"> <img style = "height:200px; width:200px;" src= "https://c.saavncdn.com/557/My-Heart-Will-Go-On-English-1998-20200827184117-500x500.jpg" /></a>
+   <h5 style = "color:white;">My heart Will Go On</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none10">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer35.html"> <img style = "height:200px; width:200px;" src= "https://i1.sndcdn.com/artworks-000523641915-lo2qzf-t500x500.jpg" /></a>
+   <h5 style = "color:white;">On My Way</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none11">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer36.html"> <img style = "height:200px; width:200px;" src= "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" /></a>
+   <h5 style = "color:white;">Shape of You</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none12">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer38.html"> <img style = "height:200px; width:200px;" src= "images/pasoori.jpg" /></a>
+   <h5 style = "color:white;">Pasoori</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none13">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer30.html"> <img style = "height:200px; width:200px;" src= "images/arijit singh1.jpeg" /></a>
+   <h5 style = "color:white;">Kesariya</h5>
+ </div>`;
+ <div style = "display:none; margin:10px;" id = "none14">
+  <a target = "_blank" href = "file:///D:/HTML%20course/musicplayer21.html"> <img style = "height:200px; width:200px;" src= "images/harry styles2.jpg" /></a>
+   <h5 style = "color:white;">Night Changes</h5>
+ </div>`;
+    <!-- social section -->
+
+    <hr>
+    <div class = "icons text center">
+      <a href = "#" class = "icon icon--instagram">
+          <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href = "#" class = "icon icon--twitter">
+          <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href = "https://www.linkedin.com/in/shubham-mishra-044813140/" class = "icon icon--linkedin" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      <a href = "https://github.com/heyShubham12" class = "icon icon--github" target="_blank">
+          <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+    <script src = "add.js"></script>
+    <script src = "like.js"></script>
+    <script src = "Info.js"></script>
+    <!-- fm radio -->
+    <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-1b93d165-6e3a-4d05-aabf-8d24ed1f35d5"></div> -->
+   
+  </body>
+</html>

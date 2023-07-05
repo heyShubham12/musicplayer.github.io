@@ -1,0 +1,2 @@
+After all this, the major task was to make a music player where user can listen to the songs. For every song there exists a separate file and for all those html files there is a single js file which is made to add functioning to the music player. the functions like play/pause, next, previous, shuffle and repeat buttons and perform the task.
+The backend part is also done by me like adding user data to the database
